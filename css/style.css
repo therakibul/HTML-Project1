@@ -8,9 +8,29 @@ body{
     margin: 0 auto;
 }
 h1, h2 {
-    margin: 0;
     font-family: 'Bellota', cursive;
+}
+header h1, header h2 {
+    margin: 0;
+   
     color: skyblue;
+}
+.banner-image{
+    width: 600px;
+    height: 500px;;
+}
+img {
+    width: 300px;
+}
+.col-wide {
+    float: left;
+    width: 60%;
+    min-height: 175px;
+}
+.col-narrow{
+    float: right;
+    width: 30%;
+    min-height: 175px;
 }
 /* Header Section */
 header{
